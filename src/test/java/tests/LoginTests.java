@@ -60,6 +60,7 @@ public class LoginTests {
     }
 
 
+
     public void logOutTestRed() {
         driver.get("http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx");
         driver.findElement(By.id("ctl00_MainContent_username")).sendKeys("Tester");
@@ -71,21 +72,33 @@ public class LoginTests {
 
     }
 
+
+
+    
     @Test
-    public void logOutTestFeature() {
+    public void logOutTest3() {
+
         driver.get("http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx");
         driver.findElement(By.id("ctl00_MainContent_username")).sendKeys("Tester");
 
 
     }
 
+
+
     @Test
-    public void logOutTestFeatureTest2() {
+    public void logOutREMOTEREPO() {
+
         driver.get("http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx");
         driver.findElement(By.id("ctl00_MainContent_username")).sendKeys("Tester");
 
 
     }
+
+
 
 
 }
+
+
+
