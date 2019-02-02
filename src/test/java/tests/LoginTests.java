@@ -58,4 +58,13 @@ public class LoginTests {
 
 
     }
+
+    @Test
+    public void logOutTest2MASTER() {
+        driver.get("http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx");
+        driver.findElement(By.id("ctl00_MainContent_username")).sendKeys("Tester");
+
+
+    }
+
 }
