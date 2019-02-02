@@ -25,7 +25,6 @@ public class LoginTests {
     }
 
 
-
     @Test
     public void loginTest1() {
         driver.get("http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx");
@@ -46,6 +45,10 @@ public class LoginTests {
 
     }
 
+    @AfterMethod
+    public void cleanUp() {
+        driver.close();
+    }
 
 
     @Test
@@ -55,6 +58,4 @@ public class LoginTests {
 
 
     }
-
-
 }
