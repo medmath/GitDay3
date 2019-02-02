@@ -45,7 +45,10 @@ public class LoginTests {
         Assert.assertEquals(driver.getTitle(), "Web Orders Login");
 
     }
-
+@AfterMethod
+    public void cleanUp() {
+        driver.close();
+    }
 
 
 
