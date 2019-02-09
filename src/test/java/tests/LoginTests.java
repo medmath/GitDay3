@@ -18,6 +18,7 @@ import java.util.concurrent.TimeUnit;
 //Without Page object approach
 public class LoginTests {
 Map<Integer,String> myMap= new HashMap<>();
+    Map<Integer,String> map= new HashMap<>();
     WebDriver driver;
 
     @BeforeMethod
