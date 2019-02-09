@@ -21,6 +21,9 @@ Map<Integer,String> myMap= new HashMap<>();
     Map<Integer,String> map= new HashMap<>();
     Map<Integer,String> map1= new HashMap<>();
     Map<Integer,String> map2= new HashMap<>();
+    Map<Integer,String> map21= new HashMap<>();
+
+
     WebDriver driver;
 
     @BeforeMethod
